@@ -1,0 +1,8 @@
+<svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="cart"> 
+    <path d="M4.01074 5.23944L7.04408 5.76444L8.44845 22.4959C8.56074 23.8624 9.70262 24.9109 11.0735 24.9065H26.9824C28.2905 24.9094 29.4003 23.9469 29.5855 22.6519L30.9695 13.0882C31.1241 12.0192 30.3818 11.0276 29.3143 10.873C29.221 10.8599 7.53116 10.8526 7.53116 10.8526"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20.5991 16.2424H24.6431" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4335 29.962C10.8724 29.962 11.2268 30.3178 11.2268 30.7553C11.2268 31.1943 10.8724 31.5501 10.4335 31.5501C9.99451 31.5501 9.64014 31.1943 9.64014 30.7553C9.64014 30.3178 9.99451 29.962 10.4335 29.962Z" fill="black"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M26.8842 29.962C27.3231 29.962 27.6789 30.3178 27.6789 30.7553C27.6789 31.1943 27.3231 31.5501 26.8842 31.5501C26.4452 31.5501 26.0908 31.1943 26.0908 30.7553C26.0908 30.3178 26.4452 29.962 26.8842 29.962Z" fill="black"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+.products {
+  background: var(--white);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.products__wraper {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10.6rem;
+}
+
+.products__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  padding-bottom: 15rem;
+}
+
+.products__title h2 {
+  max-width: calc(var(--index) * 25.5);
+  font-size: 4.7rem;
+  line-height: 1.1em;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.products__button .products__btn svg {
+  display: inline-block;
+  stroke: var(--dark);
+}
+
+.products__cards  {
+  max-width: 90rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3.3rem;
+  scroll-behavior: smooth;
+}
+
+.products__cards-swiper  {
+  width: 27rem;
+  height: 40rem;
+  overflow: hidden;
+  background: var(--gray-card);
+  border-radius: 1rem;
+  transition: 0.4s;
+}
+
+.products__cards-swiper:hover {
+  box-shadow: 0 1.2rem 2rem rgba(150,79,23,0.32);
+  transition: box-shadow .5s;
+}
+
+.products__cards-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products__cards-img {
+  height: 19.1rem;
+}
+
+.products__cards-img img  {
+  display: block;
+  width: 19.1rem;
+  margin-top: 1.9rem;
+  margin-bottom: 1.6rem;
+  filter: drop-shadow(0 1.3rem 1.3rem var(--gray-dark));
+}
+
+.products__cards-title h4 {
+  
+  font-size: 2.8rem;
+  line-height: 1.4em;
+  margin-bottom: 1.7rem;
+  color: var(--dark);
+  font-weight: 600;
+}
+
+.products__cards-prise p, .products__cards-prise p span {
+  font-size: 2.8rem;
+  line-height: 1.4em;
+  margin-bottom: 1.7rem;
+  color: var(--dark);
+  font-weight: 400;
+}
+
+.card-btn {
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding: 1.5rem 4.7rem;
+  background: var(--gray-dark);
+  border-radius: 1rem;
+  transition: color 0.3s;
+}
+
+.card-btn:active {
+  color: var(--accent-color);
+  transform: scale(0.9);
+  transition: color 0.1s, transform 0.12s;
+}

@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wraper-heder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0.1rem 10%;
+  transition: 0.3s;
+  z-index: 100;
+}
+
+.wraper-heder.headBodyMove {
+  background-color: rgba(59, 59, 59, 0.3);
+  backdrop-filter: blur(0.5rem);
+}
+
+.header__items  {
+  max-width: 1140px;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header__logo {
+  display: flex;
+  color: var(--white);
+  align-items: center;  
+}
+
+.logo img {
+  display: block;
+  width: var(--logo-size);
+	height: var(--logo-size);
+  margin-right: calc(var(--index) * 0.8);
+}
+.header__logo-text  {
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: calc(var(--index) * .14);
+}
+.header__logo-text span {
+  color: var(--accent-color);
+}
+
+.nav-list .nav-item .nav-active {
+  color: var(--accent-color);
+}
+
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--white);
+  cursor: pointer;
+  display: none;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 2.8rem;
+  color: var(--white);
+  font-size: 2.6rem;
+  line-height: 1.4em;
+  font-weight: 400;
+  transition: color 0.4s;
+}
+.nav-list a {
+  position: relative;
+}
+.nav-list a:hover {
+  color: var(--accent-color);
+  transition: color 0.4s;
+}
+.nav-list a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: calc(var(--index) * -0.3);
+  width: 100%;
+  height: 0.2rem;
+  background: var(--accent-color);
+  border-radius: 0.5rem;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+.nav-list a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.header__items-cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.header__items-cart svg {
+  width: calc(var(--index) * 1.5);
+  height: calc(var(--index) * 1.5);
+  stroke: var(--white);
+}
+.header__items-cart:hover svg {
+  stroke: var(--accent-color);
+  transition: 0.4s;
+}
+
+.header__items-cart span{
+  position: absolute;
+  background-color: var(--space-red-cart);
+  width: calc(var(--index) * 1.1);
+  height: calc(var(--index) * 1.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: calc(var(--index) * 0.6);
+  color: var(--white);
+  top: 50%;
+  right: calc(var(--index) * -0.4);
+}
+

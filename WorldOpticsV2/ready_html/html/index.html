@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="shortcut icon" href="../assets/icons/logo/logo.gif" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>World Optics</title>
+</head>
+<body>
+  
+  <div class="preloader" id="preloader">
+    <div class="load__elem"></div>
+    <div class="load__elem"></div>
+    <div class="load__elem"></div>
+    <span class="loading">Loading<span class="loading__dot">.</span><span class="loading__dot">.</span><span class="loading__dot">.</span></span>
+  </div>
+  
+  <header id="#home" class="header">
+    <div class="container">
+      <div class="wraper-heder">
+        <div class="header__items">
+          <div class="header__logo">
+            <div class="logo">
+              <img src="../assets/icons/logo/logo.gif" alt="World Optics">
+            </div>
+            <div class="header__logo-text">
+              <a href="#firstpage"><h2><span>W</span>orld <span>O</span>ptics</h2></a>
+            </div>
+          </div>
+
+          <div class='bx bx-menu' id="menu-icon"></div>
+
+          <div id="header__nav" class="header__nav">
+            <nav class="navigation">
+              <ul id="nav-list" class="nav-list">
+                <li class="nav-item"><a href="#firstpage" class="nav-a nav-active">Home</a></li>
+                <li class="nav-item"><a href="#device" class="nav-a">Device</a></li>
+                <li class="nav-item"><a href="#photo" class="nav-a">Photo</a></li>
+                <li class="nav-item"><a href="#video" class="nav-a">Video</a></li>
+                <li class="nav-item"><a href="#about" class="nav-a">About</a></li>
+                <li class="nav-item"><a href="#footer" class="nav-a">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div id="cart" class="header__items-cart">
+            <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="../assets/icons/cart.svg#cart"></use>
+            </svg>
+            <span>0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="firstpage" class="firstpage">
+      <div class="container">
+        <div class="firstpage__slogan">
+          <div class="firstpage__swiper-button btn-flex">
+            <button class="products__btn prev">
+              <svg width="31" height="58" viewBox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="../assets/icons/arrow_left.svg#leftarrow"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="main-slider">
+            <div class="main-slider-list">
+              <div class="main-slider-item slider-active">
+                <div class="main-slider-img">
+                  <img src="../assets/images/mainbg2.jpg" alt="house on the Sea in Stars">
+                </div>
+                <div class="firstpage__slogan-item">
+                  <h1>Infinity</h1>
+                  <p>You can never have too much sky. You can fall asleep and wake up drunk in the sky, and the sky can keep you safe when you are sad.</p>
+                </div>
+              </div>
+              <div class="main-slider-item">
+                <div class="main-slider-img">
+                  <img src="../assets/images/mainbg1.jpg" alt="Look in the Sea in Stars">
+                </div>
+                <div class="firstpage__slogan-item">
+                  
+                  <h1><span>THE</span>WORLD OPTICS AROUND US</h1>
+                  <p>The best optics in the world will not let anything hide from your sight.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="firstpage__swiper-button btn-flex">
+            <button class="products__btn next">
+              <svg width="31" height="58" viewBox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="../assets/icons/arrow_left.svg#rightarrow"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="firstpage__audio">
+            <img class="soundbutton paused" src="../assets/icons/sound.gif" alt="soundbutton">
+            <audio class="audio" src="../assets/media/audio/ambient.mp3" loop></audio>
+          </div>
+        </div>
+        <div class="firstpage__canvas canva">
+          <canvas class="rain"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Page-->
+
+    <section id="device" class="products">
+      <div class="container">
+        <div class="products__title">
+          <h2>A Trustworthy Friend With A Keen Eye</h2>
+        </div>
+        <div class="products__wraper">
+          <div class="products__button btn-flex">
+            <button class="products__btn prev">
+              <svg width="31" height="58" viewBox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="../assets/icons/arrow_left.svg#leftarrow"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="products__cards"></div>
+          <div class="products__button btn-flex">
+            <button class="products__btn next">
+              <svg width="31" height="58" viewBox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="../assets/icons/arrow_left.svg#rightarrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PhotoSlider Page-->
+
+    <section id="photo" class="photoslider">
+      <div class="container">
+        <div class="photoslider__title">
+          <h2>Photo Stories</h2>
+        </div>
+        <div class="photoslider__text">
+          <p>Each picture is a separate story that can evoke emotions, memories and reflections, allowing us to travel back in time and relive these moments over and over again.</p>
+        </div>
+        <div class="photoslider__wrapper">
+          <div class="photoslider__wrapper-items">
+            <div class="item" tabindex="1" style="background-image: url(../assets/images/slider_hover/los.jpg)"></div>
+            <div class="item" tabindex="1" style="background-image: url(../assets/images/slider_hover/luna.jpeg)"></div>
+            <div class="item" tabindex="1" style="background-image: url(../assets/images/slider_hover/kunica.jpg)"></div>
+            <div class="item" tabindex="1" style="background-image: url(../assets/images/slider_hover/olen.jpg)"></div>
+            <div class="item" tabindex="1" style="background-image: url(../assets/images/slider_hover/food.jpg)"></div>
+            <div class="item" tabindex="1" style="background-image: url(../assets/images/slider_hover/sova.jpeg)"></div>
+            <div class="item" tabindex="1" style="background-image: url(../assets/images/slider_hover/zubr.jpg)"></div>
+            <div class="item" tabindex="1" style="background-image: url(../assets/images/slider_hover/volk.jpg)"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VideoSlider Page-->
+
+    <section id="video" class="videoslider">
+      <div class="container">
+        <div class="videoslider__title">
+          <h2>Video Stories</h2>
+        </div>
+        <div class="videoslider__container">
+          <div class="vidio__button-block">
+            <div class="products__button btn-flex">
+              <button class="products__btn prev">
+                <svg width="31" height="58" viewBox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="../assets/icons/arrow_left.svg#leftarrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="videoslider__wrapper"></div>
+          <div class="vidio__button-block">
+            <div class="products__button btn-flex">
+              <button class="products__btn next">
+                <svg width="31" height="58" viewBox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="../assets/icons/arrow_left.svg#rightarrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Page-->
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__title">
+          <h2>Why people love World Optics?</h2>
+        </div>
+        <div class="about__text">
+          <p>We live and breathe World Optics every day. Sometimes through, it’s easy to forget that not everyone know’s all the little tricks that make using in our lives</p>
+        </div>
+        <div class="about__swiper-block">
+          <div class="about__swiper__button btn-flex">
+            <button class="products__btn prev">
+              <svg width="31" height="58" viewBox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="../assets/icons/arrow_left.svg#leftarrow"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="swiper-items"></div>
+          <div class="about__swiper__button btn-flex">
+            <button class="products__btn next">
+              <svg width="31" height="58" viewBox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="../assets/icons/arrow_left.svg#rightarrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Page-->
+
+    <section class="footer" id="footer">
+      <div class="container">
+        <div class="footer__items">
+          <div class="footer__items-subscribe-form" id="subscribe">
+            <div class="subscribe-form-text">
+              <h4>Want to stay in touch?</p>
+            </div>
+            <div class="subscribe-form-title">
+              <h2>Newsletter SUBSCRIBE</h2>
+            </div>
+            <div class="subscribe-form-order">
+              <p>In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us.  We don’t spam.</p>
+            </div>
+            <div class="subscribe-form-submit">
+              <form id="form" action="#" method="post">
+                <input class="submit-email _req _email" type="text" name="email" id="submit-email" required>
+                <label class="submit-placeholder">Your email address</label>
+                <button class="submit-btn" type="submit">Subscribe now</button>
+              </form>
+            </div>
+          </div>
+          <div class="footer__items-navigation">
+            <div id="header__nav" class="header__nav">
+              <nav class="navigation">
+                <ul id="nav-list" class="nav-list">
+                  <li class="nav-item"><a href="#firstpage" class="nav-a nav-active">Home</a></li>
+                  <li class="nav-item"><a href="#device" class="nav-a">Device</a></li>
+                  <li class="nav-item"><a href="#photo" class="nav-a">Photo</a></li>
+                  <li class="nav-item"><a href="#video" class="nav-a">Video</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-a">About</a></li>
+                  <li class="nav-item"><a href="#footer" class="nav-a">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__items-navigation-wrapper">
+              <div class="footer__items-navigation-social">
+                <ul class="social-nav">
+                  <li><a href="#!">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="../assets/icons/social/social_items.svg#facebook"></use>
+                    </svg>
+                  </a></li>
+                  <li><a href="#!">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="../assets/icons/social/social_items.svg#twitter"></use>
+                    </svg>
+                  </a></li>
+                  <li><a href="#!">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="../assets/icons/social/social_items.svg#youtube"></use>
+                    </svg>
+                  </a></li>
+                  <li><a href="#!">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <use xlink:href="../assets/icons/social/social_items.svg#twitch"></use>
+                    </svg>
+                  </a></li>
+                </ul>
+              </div>
+              <div id="cart" class="header__items-cart">
+                <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <use xlink:href="../assets/icons/cart.svg#cart"></use>
+                </svg>
+                <span>0</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer__items-copyright">
+            <p>© 2023  World Optics</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <script src="../js/main.js" type="module"></script>
+</body>
+</html>
+
